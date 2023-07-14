@@ -1,0 +1,70 @@
+/*Default elements*/
+body {
+  font-family: "Courier New";
+}
+header {
+  text-align:center;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+h1 {
+  font-size: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+h2 {
+  font-size:16px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+button {
+  font-size: 24px;
+  display: block;
+  margin: 10px 10px;
+  width: 940px;
+  height: 200px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.hrblack {
+  border: none;
+  border-top: 3px solid black;
+  margin-top: 0px;
+}
+.hrblue {
+  margin-top: 0px;
+  border-top: 1px solid blue;
+}
+.verticalLine {
+  border-left: 3px solid #c45249;
+  height: 100%;
+  position: fixed;
+  left: 125px;
+  top: 0;
+}
+.uncommon {
+  color: gold;
+}
+.rare {
+  color: lightblue;
+}
+.epic {
+  color: purple;
+}
+/*SubModButtons*/
+.column {
+  float: left;
+  width: 46%;
+  padding: 10px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.button1 {
+  
+}
+.button2 {
+  
+}
